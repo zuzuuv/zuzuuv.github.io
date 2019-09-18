@@ -1,0 +1,92 @@
+body {
+  padding:0;
+  margin:0;
+  background-color:#D11717;
+}
+
+
+.large-letter-group {
+  dispay:flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #349338
+}
+
+.large-letter-group h1 {
+  background-color: #3BFC1D;
+  height:372px;
+  margin-top: 300px;
+  margin-left: 250px;
+}
+
+.large-letter-group button {
+  height:45px;
+  width:260px;
+  margin-left: 400px;
+  background-color: #A064E4;
+
+}
+
+.letter-hyphen-set {
+  height:45px;
+  background-color: #9712F0;
+  margin-top: 50px;
+}
+
+.body-set {
+  height:746px;
+  background-color:#10E1E1;
+}
+
+.works-cited {
+  height: 31px;
+  width:303px;
+  background-color: #1CF7A7;
+  margin-left: 726px;
+}
+.my-name {
+  height:92px;
+  width:411px;
+  background-color: #A8C02F;
+  margin-bottom: 123px;
+  margin-left: 321px;
+
+}
+
+footer {
+  height: 337px;
+  background-color: #D6D3D3;
+}
+
+.t1 {
+  height: 100px;
+  background-color: #DAEC25;
+}
+
+.p-0 {
+  height: 500px;
+  width: 500px;
+  background-color: #A8C02F;
+  margin-left: 150px;
+}
+
+.p-1{
+  height 500px;
+  width:500px;
+  background-color: #CB1515;
+  margin-left: 400px;
+}
+
+.h2{
+  height:300px;
+  width:500px;
+  background-color: #084444;
+  margin-left: 300px;
+}
+
+img {
+  height: 90px;
+  width:90px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
