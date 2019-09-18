@@ -1,0 +1,30 @@
+
+
+#green-froggie {
+    position: absolute;
+    bottom: -2%;
+    left: 30.67%;
+  }
+
+  #rel-lily-pad {
+    position: relative;
+    bottom: -111%;
+    left: 11.2%;
+  }
+
+  #gold-froggie {
+      position: fixed;
+      top: 30.5%;
+      left: unset;
+      z-index: 99;
+      right: 0px;
+    }
+
+    #red-froggie {
+    position: static;
+    top: 2739px;
+    right: 0;
+    z-index: 30;
+    display: block;
+    margin-bottom: 6px;
+}
