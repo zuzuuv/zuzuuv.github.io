@@ -4,33 +4,31 @@ body {
 
 h1 {
   font-family: comfortaa;
-  margin-left: 650px;
+  margin-left: 425px;
   color: #150BFF;
 
 }
 
 header {
-  position: fixed;
   display: flex;
   background-color: #FEFEFE;
-  width: 100%;
+
 }
 
 
 #shopcart {
     width: 20pt;
     height: 20pt;
-    margin-left: 500px;
+    margin-left: 375px;
     margin-top: 25px;
     margin-bottom: 20px;
 }
 
 
-
-
-
-
-
+.container {
+width: 1024px;
+margin:0 auto;
+}
 
 
 section {
@@ -38,16 +36,17 @@ section {
   background-color: #FEFEFE;
   padding-top:100px;
   padding-right: 30px;
-  padding-bottom: 10px;
-  padding-left: 550px;
+  padding-bottom: 30px;
+  padding-left: 315px;
   font-size: large;
   font-family: comfortaa;
 
 }
 
+#alpha {}
+
 .letter-container {
   background-color: #D6D3D3;
-  width: 100%;
   height: 400px;
   margin-top: 0px;
   display: flex;
@@ -56,14 +55,14 @@ section {
 }
 
 #letter-analysis {
-  color: #150BFF;
-  font-size: 300px;
   font-family: comfortaa;
-  background-color: #D6D3D3;
-  width: 100%;
-  margin-left: -100px;
-  margin-top: 10px;
   visibility: hidden;
+z-index:80;
+position: absolute;
+top: -6px;
+left: 361.3px;
+width: 315px;
+
 
 
 }
@@ -71,14 +70,21 @@ section {
 #letter-analysis.visible {
   visibility: visible;
 }
+.letter-container {
+  z-index: 70;
+  position: relative;
+}
+
 h2 {
   color: #150BFF;
   font-size: 300px;
   font-family: comfortaa;
+  font-weight: 400;
   background-color: #D6D3D3;
-  width: 100%;
-  margin-left: 600px;
-  margin-top: 10px;
+  position: absolute;
+  top:-30px;
+left: 370px;
+  margin-top: 50px;
 
 
 }
@@ -87,16 +93,15 @@ h3 {
   color: #707070;
   font-family: comfortaa;
   font-size: 100px;
-  margin-left: 700px;
-  margin-top: 430px
 }
 
 .analyzebutton {
 
   height:20px;
   font-family: comfortaa;
-  margin-right: 300px;
-  margin-top: 350px;
+  position: absolute;
+  top:340px;
+  left: 365px;
 
 }
 #button {
@@ -109,54 +114,58 @@ h3 {
 
 .aboutcontainer {
   height: 600px;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 500px;
+
 }
 
 p {
   font-family: comfortaa;
   width: 322px;
-  margin-left: 600px;
+  margin-left: -100px;
 }
 
 .p1 {
   font-family: comfortaa;
   width: 322px;
-  margin-left:900px;
+  margin-left:150px;
 }
 
 
 
 footer {
   font-family: comfortaa;
-height: 270px;
-width: 100%;
   background-color: #D6D3D3;
   display: flex;
+  position: relative;
 
 }
 
 img {
-  width: 185pt;
-  height: 150pt;
+
   margin-left: 20px;
   margin-top: 30px;
   float: left;
   margin-bottom: 20px;
 }
 
-.letter-container {
-  position: absolute;
-  z-index: 99;
-  top: ;
-  left:
+
+
 }
 
 .bio {
   height: 100px;
-  margin-left: 15px;
-  margin-top: 150px;
+  position: absolute;
 }
 
 .link {
-  margin-left: 330px;
-  margin-top: 250px;
+position: absolute;
+right: 25px;
+top: 230px;
+}
+
+#selfie {
+height: 200px;
+width: 250px;
 }
