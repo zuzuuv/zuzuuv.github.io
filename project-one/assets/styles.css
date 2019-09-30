@@ -12,7 +12,10 @@ h1 {
 header {
   display: flex;
   background-color: #FEFEFE;
-
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top:0;
 }
 
 
@@ -20,7 +23,6 @@ header {
     width: 20pt;
     height: 20pt;
     margin-left: 375px;
-    margin-top: 25px;
     margin-bottom: 20px;
 }
 
@@ -43,7 +45,12 @@ section {
 
 }
 
-#alpha {}
+#alpha {
+  font-size: 30px;
+  position: relative;
+  right: 120px;
+
+}
 
 .letter-container {
   background-color: #D6D3D3;
@@ -51,6 +58,7 @@ section {
   margin-top: 0px;
   display: flex;
   z-index: 0;
+
 
 }
 
@@ -93,6 +101,7 @@ h3 {
   color: #707070;
   font-family: comfortaa;
   font-size: 100px;
+  margin-bottom: 30px;
 }
 
 .analyzebutton {
@@ -113,23 +122,25 @@ h3 {
 }
 
 .aboutcontainer {
-  height: 600px;
-  position: relative;
-  margin-top: 50px;
-  margin-left: 500px;
+    position: relative;
+    margin-left: 500px;
+
+    margin-bottom: 90px;
 
 }
 
 p {
   font-family: comfortaa;
   width: 322px;
-  margin-left: -100px;
+  margin-left: -200px;
+  font-size: 20px;
 }
 
 .p1 {
   font-family: comfortaa;
   width: 322px;
-  margin-left:150px;
+  margin-left:30px;
+  font-size: 20px;
 }
 
 
