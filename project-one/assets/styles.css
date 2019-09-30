@@ -152,11 +152,10 @@ img {
 
 
 
-}
 
 .bio {
-  height: 100px;
-  position: absolute;
+  padding-left: 15px;
+  padding-top: 140px;
 }
 
 .link {
