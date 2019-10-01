@@ -165,17 +165,18 @@ img {
 
 
 .bio {
-  padding-left: 15px;
-  padding-top: 140px;
+  padding-left: 5px;
+  padding-top: 170px;
+  line-height: 2px;
 }
 
 .link {
 position: absolute;
 right: 25px;
-top: 230px;
+top: 260px;
 }
 
 #selfie {
-height: 200px;
+height: 230px;
 width: 250px;
 }
