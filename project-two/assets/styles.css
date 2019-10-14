@@ -1,0 +1,63 @@
+.container
+{ width: 1024px;
+  position: absolute;
+}
+
+h1 {
+  font-family: grand-central, serif;
+font-weight: 300;
+font-style: normal;
+position: absolute;
+color: #707070;
+font-size: 50px;
+
+}
+
+#description1
+{ font-size: 14pt;
+  color: gray;
+  position: absolute;
+top: 200px;
+font-family: acumin-pro-condensed, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 16px;
+}
+
+h2
+{
+  font-family: grand-central, serif;
+font-weight: 300;
+font-style: normal;
+top: 200px;
+}
+
+#about {
+  position: absolute;
+  font-family: acumin-pro-condensed, sans-serif;
+font-weight: 300;
+font-style: normal;
+top: 300px;
+display: flex;
+}
+
+h3 {
+  position: absolute;
+  font-family: grand-central, serif;
+font-weight: 300;
+font-style: normal;
+font-size: 40px;
+top: 400px;
+text-align: center;
+}
+
+footer {
+  font-family: acumin-pro-condensed, sans-serif;
+font-weight: 300;
+font-style: normal;
+position: absolute;
+top: 600px;
+display: flex;
+
+
+}
