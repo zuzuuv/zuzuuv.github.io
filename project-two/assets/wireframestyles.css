@@ -1,0 +1,416 @@
+Body {
+  background-color: green;
+  margin:0 auto;
+  width: 768px;
+}
+
+
+header{
+height: 500px;
+position: absolute;
+background-color: red;
+width: 768px;
+}
+
+.number{
+  position: relative;
+  height:400px;
+  background-color: yellow;
+  width: 500px;
+  top: 400;
+
+}
+
+.chineseseasons{
+  background-color: blue;
+  width: 768px;
+  position: relative;
+  top: -15px;
+  text-align: right;
+}
+
+#about {
+background-color: orange;
+width: 768px;
+height: 600px;
+position: absolute;
+top: 500px;
+}
+
+.quote {
+  background-color: purple;
+  width: 600px;
+  height: 270px;
+  position: relative;
+}
+
+.aboutseasons {
+  background-color: pink;
+  width: 150px;
+  position: relative;
+  left: 15px;
+  height: 100px;
+  top: 30px;
+}
+
+.aboutcontent {
+  background-color: aqua;
+  position: relative;
+  width: 500px;
+  right: -230px;
+  bottom: 70px;
+}
+
+#grids {
+  background-color: red;
+  height: 1300px;
+  position: absolute;
+  width: 768px;
+
+}
+
+#titleofgrids {
+  background-color: teal;
+  height: 100px;
+  width: 300px;
+  position: relative;
+  left: 230px;
+}
+
+#row1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.springbegins {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 15px;
+}
+
+#flower {
+  width: 50px;
+  height: 50px;
+}
+
+.therains {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+text-align: center;
+box-sizing: border-box;
+overflow: hidden;
+border-radius: 10px;
+position: relative;
+top: 15px;
+}
+
+.insectsawakening {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 15px;
+}
+
+.vernalequinox {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 15px;
+}
+
+#row2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.clearbright {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 25px;
+}
+
+.grainrain {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 25px;
+}
+
+.summerbegins{
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 25px;
+}
+
+.grainbuds {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 25px;
+}
+
+#row3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.graininear {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 35px;
+}
+
+.summersolstice {
+
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 35px;
+}
+
+.Slightheat {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 35px;
+}
+
+.greatheat {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 35px;
+}
+
+#row4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.autumnbegins {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 45px;
+}
+
+.stoppingheat {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 45px;
+}
+
+.whitedew {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 45px;
+}
+
+.autumnequinox {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 45px;
+}
+
+#row5 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.colddews {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 55px;
+}
+
+.oharfrost {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 55px;
+}
+
+.winterbegins {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 55px;
+}
+
+.lightsnow {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 55px;
+}
+
+#row6 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heavysnow {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 65px;
+}
+
+.wintersolstice {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 65px;
+}
+
+.slightcold {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 65px;
+}
+
+.greatcold {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  top: 65px;
+}
+
+.sources {
+  position: relative;
+  background-color: yellow;
+  height: 150px;
+  width: 700px;
+  top: 100px;
+  left: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+
+}
