@@ -1,5 +1,5 @@
 Body {
-  background-color: green;
+  background-color: white;
   margin:0 auto;
   width: 768px;
 }
@@ -8,14 +8,20 @@ Body {
 header{
 height: 500px;
 position: absolute;
-background-color: red;
+background-color: white;
 width: 768px;
+}
+
+#seasonsheader {
+  height: 300px;
+  margin-top: 50px;
+  margin-left:
 }
 
 .number{
   position: relative;
   height:400px;
-  background-color: yellow;
+  background-color: white;
   width: 500px;
   top: 400;
 
@@ -30,7 +36,7 @@ width: 768px;
 }
 
 #about {
-background-color: orange;
+background-color: white;
 width: 768px;
 height: 600px;
 position: absolute;
@@ -38,39 +44,47 @@ top: 500px;
 }
 
 .quote {
-  background-color: purple;
+  background-color: white;
   width: 600px;
   height: 270px;
   position: relative;
+  font-family: rift-soft,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 50px;
+  margin-left: 250px;
+
 }
 
 .aboutseasons {
-  background-color: pink;
+  background-color: white;
   width: 150px;
   position: relative;
   left: 15px;
   height: 100px;
-  top: 30px;
+  top: 50px;
 }
 
 .aboutcontent {
-  background-color: aqua;
+  background-color: white;
   position: relative;
   width: 500px;
   right: -230px;
   bottom: 70px;
+  top: -80px;
 }
 
 #grids {
-  background-color: red;
+  background-color:white;
   height: 1300px;
   position: absolute;
   width: 768px;
+  top: 750px;
 
 }
 
 #titleofgrids {
-  background-color: teal;
+  background-color: white;
   height: 100px;
   width: 300px;
   position: relative;
@@ -88,6 +102,30 @@ h2 {
   font-family: rift-soft,sans-serif;
   font-weight: 300;
   font-style: normal;
+}
+
+#aboutabout {
+  text-align: center;
+  font-size: 30px;
+  font-family: rift-soft,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+#theseasons1 {
+  margin-top: -70px;
+  margin-left: 200px;
+}
+
+h3 {
+
+font-family: montana, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+font-size: 30px;
 }
 
 .collapsible {
@@ -108,7 +146,7 @@ h2 {
 .infobox {
   height: 150px;
   width: 150px;
-  background-color: yellow;
+  background-color: white;
   text-align: center;
   box-sizing: border-box;
   overflow: hidden;
@@ -117,6 +155,7 @@ h2 {
   top: 15px;
   opacity: 1;
   margin-top: 10px;
+  border-style: solid;
 }
 
 .og-expanded-content {
@@ -231,18 +270,28 @@ h2 {
   justify-content: space-around;
 }
 
+p {
+  font-family: rift-soft,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  size: 40px;
+}
 
 
 .sources {
   position: relative;
-  background-color: yellow;
+  background-color: white;
   height: 150px;
   width: 700px;
-  top: 100px;
+  top: 50px;
   left: 30px;
-  box-sizing: border-box;
-  overflow: hidden;
   border-radius: 10px;
   text-align: center;
+  font-size: 20px;
+  font-family: rift-soft,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
 
 }
