@@ -296,7 +296,7 @@ p {
   font-style: normal;
   text-align: center;
   size: 40px;
-  margin-left: -80px;
+  /* margin-left: -80px; */
 }
 
 
