@@ -23,8 +23,23 @@ width: 768px;
   height:400px;
   background-color: white;
   width: 500px;
-  top: 400;
+  top: -100px;
+  margin-left: 370px;
 
+}
+
+#lineart {
+  height: 30px;
+  opacity: .3;
+  height: 1001px;
+    /* opacity: .5; */
+    margin-top: -1002px;
+    margin-left: -67px;
+    width: 1166px;
+}
+
+#slightheat {
+  height: 50px;
 }
 
 .chineseseasons{
@@ -52,24 +67,24 @@ top: 500px;
   font-weight: 300;
   font-style: normal;
   font-size: 50px;
-  margin-left: 250px;
-
+  margin-left: 30px;
+  margin-top: -100px;
 }
 
-.aboutseasons {
+/* .aboutseasons {
   background-color: white;
   width: 150px;
   position: relative;
   left: 15px;
   height: 100px;
   top: 50px;
-}
+} */
 
 .aboutcontent {
   background-color: white;
   position: relative;
   width: 500px;
-  right: -230px;
+  right: -30px;
   bottom: 70px;
   top: -80px;
 }
@@ -79,7 +94,7 @@ top: 500px;
   height: 1300px;
   position: absolute;
   width: 768px;
-  top: 750px;
+  top: 600px;
 
 }
 
@@ -183,12 +198,16 @@ font-size: 30px;
   position: fixed;
   z-index: 1000;
   top: 40%;
-  left: 10%;
-  width: 80%;
+  left: 23%;
+  width:700px;
   background: white;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, .3);
   padding: 2rem;
-  height: 400px;
+  height: 200px;
+}
+
+.modal-footer {
+  left: 200px;
 }
 
 .image {
@@ -260,6 +279,7 @@ font-size: 30px;
   width: 50px;
 }
 
+
 #row5 {
   display: flex;
   justify-content: space-around;
@@ -276,7 +296,9 @@ p {
   font-style: normal;
   text-align: center;
   size: 40px;
+  margin-left: -80px;
 }
+
 
 
 .sources {
@@ -287,7 +309,7 @@ p {
   top: 50px;
   left: 30px;
   border-radius: 10px;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   font-family: rift-soft,sans-serif;
   font-weight: 300;
