@@ -1,0 +1,104 @@
+.basicinfobox {
+  background-color: #FECB24;
+  text-align: center;
+
+}
+
+h1 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+#zuzu {
+  letter-spacing: 10px;
+  font-size: 34px;
+}
+
+
+h2 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#selfie {
+  width: 12em;
+  height: 12em;
+  border-radius: 50%;
+  margin-top: -20px;
+}
+
+#contactinfo {
+
+}
+
+#contact {
+  letter-spacing: 15px;
+}
+
+h3 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.importantinfo {
+  padding-left: 200px;
+  width: 80%;
+}
+
+h4 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+}
