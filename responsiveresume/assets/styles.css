@@ -28,7 +28,7 @@ h2 {
   width: 12em;
   height: 12em;
   border-radius: 50%;
-  margin-top: -20px;
+  margin-top: 20px;
 }
 
 #contactinfo {
@@ -48,7 +48,7 @@ h3 {
 }
 
 .importantinfo {
-  padding-left: 200px;
+  padding-left: 100px;
   width: 80%;
 }
 
@@ -70,36 +70,55 @@ h4 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width:500px) and (max-width:768px) {
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:769px)  {
+  .container {
+    display: flex;
+  }
+
+  .importantinfo {
+    padding-left: 100px;
+    width: 80%;
+  }
+
+  .education {
+    display: flex;
+  }
 }
