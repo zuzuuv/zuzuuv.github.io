@@ -121,4 +121,20 @@ h4 {
   .education {
     display: flex;
   }
+
+  .skills {
+    display: flex;
+  }
+  .skills2 {
+    padding-left: 80px;
+    padding-top: 62px;
+  }
+
+  h1 {
+    letter-spacing: 15px;
+  }
+
+  .hkust {
+    padding-left: 20px;
+  }
 }
