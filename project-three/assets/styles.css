@@ -260,6 +260,7 @@ body {
   user-select: none;
 }
 
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -280,6 +281,9 @@ body {
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-family: eloquent-jf-small-caps-pro, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Number text (1/3 etc) */
@@ -289,6 +293,9 @@ body {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  font-family: eloquent-jf-small-caps-pro, serif;
+font-weight: 400;
+font-style: normal;
 }
 
 /* The dots/bullets/indicators */
@@ -314,6 +321,7 @@ body {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 
 @-webkit-keyframes fade {
   from {opacity: .4}
