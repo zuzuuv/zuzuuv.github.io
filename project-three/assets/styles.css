@@ -53,7 +53,7 @@ h4 {
   font-style: normal;
   font-size: 100%;
   line-height: 1.5625rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 
@@ -82,9 +82,7 @@ font-weight: 400;
 font-style: normal;
 }
 
-#timelinediv {
-  display: flex;
-}
+
 
 #header {
   width: 100%;
@@ -200,7 +198,7 @@ body {
   bottom: 0;
   left: 50%;
   margin-left: -3px;
-  height:1150px;
+  height:750px;
 }
 
 /* Container around content */
