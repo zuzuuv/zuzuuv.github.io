@@ -1,5 +1,6 @@
 Body {
   background-color: #BC941B;
+  margin: 0;
 }
 
 
@@ -8,6 +9,8 @@ Body {
 background-color: #BC941B;
 width: 60%;
 margin-left: 20%;
+position: absolute;
+margin-right: 20%;
 }
 
 
@@ -17,6 +20,7 @@ font-weight: 400;
 font-style: normal;
 font-size: 150px;
 text-align: center;
+color: white;
 }
 
 h2 {
@@ -24,7 +28,81 @@ h2 {
 font-weight: 400;
 font-style: normal;
 text-align: center;
-margin-top: 50px:
+margin-top: 50px;
+color: white;
 }
 
-p {padding: inherit;}
+p {
+  padding: 5px;
+  font-family: anonymous-pro, monospace;
+font-weight: 400;
+font-style: normal;
+line-height: 20px;
+color: black;
+
+
+}
+
+
+
+blockquote {
+  font-family: eloquent-jf-small-caps-pro, serif;
+font-weight: 400;
+font-style: normal;
+color: black;
+font-size: 20px;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+
+
+iframe {
+  height:200px;
+width: 500px;}
+
+.container {
+  position: relative;
+  color: white;
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+}
+
+
+
+@media only screen and (min-width:769px){
+
+}
