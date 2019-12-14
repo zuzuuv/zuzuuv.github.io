@@ -89,13 +89,17 @@ img {
   padding-left: 0;
   opacity: 0.5;
  filter: alpha(opacity=50);
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
 }
 
 #grant {
   height:150px;
   width:120px;
-  margin-left: 100px;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #oldzoo {
@@ -123,12 +127,14 @@ img {
   width: 300px;
   height:300px;
   border-radius: 30%;
-  margin-left: -20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .containerthree{
   display: flex;
-  margin-left: -70px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
