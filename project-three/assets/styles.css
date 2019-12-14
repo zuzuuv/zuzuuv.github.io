@@ -9,8 +9,9 @@ Body {
 background-color: #BC941B;
 width: 60%;
 margin-left: 20%;
-position: absolute;
 margin-right: 20%;
+position: relative;
+color: black;
 }
 
 
@@ -18,9 +19,11 @@ h1 {
   font-family: balboa-plus-fill, sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 150px;
+font-size: 6rem;
 text-align: center;
-color: white;
+color: black;
+position: relative;
+
 }
 
 h2 {
@@ -28,8 +31,10 @@ h2 {
 font-weight: 400;
 font-style: normal;
 text-align: center;
-margin-top: 50px;
-color: white;
+margin-top: 2rem;
+color: black;
+position: relative;
+line-height: 20px;
 }
 
 p {
@@ -39,6 +44,7 @@ font-weight: 400;
 font-style: normal;
 line-height: 20px;
 color: black;
+text-indent: 10%;
 
 
 }
@@ -60,31 +66,70 @@ hr {
 
 
 iframe {
-  height:200px;
-width: 500px;}
-
-.container {
-  position: relative;
-  color: white;
+  height:150px;
+width: 300px;
+position: relative;
+padding-left: -200px;
 }
+
 
 
 /* Centered text */
 .centered {
   position: absolute;
-  top: 90%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+
+
 img {
   padding-right: 0;
   padding-left: 0;
+  opacity: 0.5;
+ filter: alpha(opacity=50);
 }
 
+#grant {
+  height:150px;
+  width:120px;
+  margin-left: 100px;
+  border-radius: 50%;
+}
 
+#oldzoo {
+  height:300px;
+  width: 300px;
+  opacity: 0.5;
+ filter: alpha(opacity=50);
+}
 
+#zoo2 {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  border-radius: 100%;
+}
 
+#zoo1 {
+  width: 200px;
+  height:200px;
+  border-radius: 20%;
+  margin-left: 20px;
+}
+
+#zoo3 {
+  width: 300px;
+  height:300px;
+  border-radius: 30%;
+  margin-left: -20px;
+}
+
+.containerthree{
+  display: flex;
+  margin-left: -70px;
+}
 
 
 
