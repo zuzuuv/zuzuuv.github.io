@@ -54,10 +54,12 @@ progress {
   position: fixed;
   left: 0;
   top: 0;
+  
+  z-index:99;
 
   /* Dimensions */
   width: 100%;
-  height: 10px;
+  height: 5px;
 
   /* Reset the appearance */
   -webkit-appearance: none;
@@ -71,7 +73,7 @@ progress {
   background-color: transparent;
 
   /* Progress bar value for IE10+ */
-  color: #5249bb;
+  color: #724E3F;
 }
 
 
@@ -81,12 +83,12 @@ progress {
 
 /* Color of the Progress bar for Mozilla based browsers  */
   progress::-moz-progress-bar {
-    background-color: #5249bb;
+    background-color: #724E3F;
   }
 
 /* Color of the Progress bar for Chrome based browsers  */
   progress::-webkit-progress-value {
-    background-color: #5249bb;
+    background-color: #724E3F;
   }
 
 blockquote {
