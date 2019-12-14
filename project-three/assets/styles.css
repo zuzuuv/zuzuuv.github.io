@@ -1,4 +1,4 @@
-Body {
+body {
   background-color: #BC941B;
   margin: 0;
 }
@@ -49,7 +49,45 @@ text-indent: 10%;
 
 }
 
+progress {
+  /* Positioning */
+  position: fixed;
+  left: 0;
+  top: 0;
 
+  /* Dimensions */
+  width: 100%;
+  height: 10px;
+
+  /* Reset the appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+
+  /* Progress bar container for Firefox/IE10+ */
+  background-color: transparent;
+
+  /* Progress bar value for IE10+ */
+  color: #5249bb;
+}
+
+
+  progress::-webkit-progress-bar {
+    background-color: transparent;
+  }
+
+/* Color of the Progress bar for Mozilla based browsers  */
+  progress::-moz-progress-bar {
+    background-color: #5249bb;
+  }
+
+/* Color of the Progress bar for Chrome based browsers  */
+  progress::-webkit-progress-value {
+    background-color: #5249bb;
+  }
 
 blockquote {
   font-family: eloquent-jf-small-caps-pro, serif;
