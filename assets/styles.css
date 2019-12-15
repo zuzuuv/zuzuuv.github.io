@@ -48,9 +48,15 @@ font-style: normal;
   width: 90px;
 }
 
+#jordan {
+  padding-left: 200px;
+}
+
+#names {display: flex;}
+
 
 #secondcolumn {
-  padding-left: 50px; 
+  padding-left: 50px;
 }
 
 #exercises {
