@@ -3,19 +3,120 @@ body {
 
 }
 
+html {
+  background-repeat: repeat;
+  background-image: url(twilight.jpg);
+}
+
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: pink;
+  display: flex;
+}
+
+#idbox {
+  display: flex;
+  margin-right: 50%;
+
+}
+
 h1 {
-  text-align: center;
-}
-
-body {
-text-align: center;
-}
-
-img {
-  height:300px;
-
+  color: white;
+  background-color: hotpink;
+  width: 275px;
+  height: 50px;
 }
 
 h2 {
-  font-family: 'Big Shoulders Display', cursive;
+
+  font-family: hydrophilia-iced, sans-serif;
+  font-weight: 400;
+font-style: normal;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+h3 {
+  font-family: hydrophilia-iced, sans-serif;
+  font-weight: 400;
+font-style: normal;
+  font-size: 14px;
+  padding-left: 10px;
+  background-color: black;
+  color: white;
+  width: 90px;
+}
+
+
+#secondcolumn {
+  padding-left: 50px; 
+}
+
+#exercises {
+  display: flex;
+}
+
+#project-one {
+  display: flex;
+}
+
+#project-two {
+  display: flex;
+}
+
+#project-three {
+  display: flex;
+}
+
+
+img {
+  height:200px;
+  width: 200px;
+  padding-left: 10px;
+
+
+}
+
+
+button {
+  /* background-color: yellow;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 20%; */ */
+
+font-family: hydrophilia-iced, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+}
+
+/* button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+} */
+
+
+a:link, a:visited {
+  background-color: pink;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: hydrophilia-iced, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+a:hover, a:active {
+  background-color: hotpink;
 }
