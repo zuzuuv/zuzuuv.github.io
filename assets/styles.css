@@ -13,6 +13,7 @@ html {
   margin-right: 15%;
   background-color: pink;
   display: flex;
+  height:900px;
 }
 
 #idbox {
