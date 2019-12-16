@@ -123,6 +123,10 @@ img {
   margin-left: 20px;
 }
 
+#juxtapose{
+  filter:none;
+}
+
 #zoo3 {
   width: 300px;
   height:300px;
