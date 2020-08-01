@@ -13,7 +13,7 @@ html {
   margin-right: 15%;
   background-color: pink;
   display: flex;
-  
+
 }
 
 #idbox {
@@ -76,6 +76,9 @@ font-style: normal;
   display: flex;
 }
 
+#tfaresume {
+  display: flex;
+}
 
 img {
   height:200px;
