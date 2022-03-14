@@ -80,6 +80,10 @@ font-style: normal;
   display: flex;
 }
 
+#Data-Visualization {
+  display: flex;
+}
+
 img {
   height:200px;
   width: 200px;
